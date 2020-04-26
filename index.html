@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="font/font_awesome/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="todo_list">
+                <p class="wor"> Todo List</p>
+            </div>
+            <div class="main">
+                <div class="task_tabs">
+                    <p class="main_meny">
+                        <span><i class="fas fa-plus"></i></span>
+                        <span><i class="fas fa-plus"></i></span>
+                        <span><i class="fas fa-plus"></i></span>
+                    </p>
+                    <div class="task_tabs_menu">
+                        <p class="burg_meny">
+                            <span class="transformary"><i class="fas fa-plus"></i></span>
+                            <input class="inp_chek" type="checkbox" name="burg_meny">
+                        </p>
+                        <span class="inform">
+                            <span class="green"></span>
+                            <i class="fas fa-tasks"></i>  
+                        </span>
+                        <span class="created_task">
+                            <span class="green"></span>
+                            <i class="fas fa-check"></i>  
+                        </span>
+                        <span class="expired_task">
+                            <span class="green"></span>
+                            <i class="fas fa-user-times"></i> 
+                        </span>
+                    </div>
+                </div>  
+                
+                <div class="right_list">
+                    <div class="todo_init_title">
+                            <form>
+                                <input class="btn" type="text" placeholder="Todo list title">
+                                <textarea class="btn_description" type="text" placeholder="Todo list description"></textarea>
+                                <div class="nav_button">
+                                    <span class="reset" type="button">-</span>
+                                    <!--<input class="task_date" type="date" value="">-->
+                                    
+                                    <div class="invite_date">
+                                        <div class="my_calendar">
+                                            <div class="nav">
+                                                <span class="previous"><i class="fas fa-angle-left"></i></i></span>
+                                                <span class="next"><i class="fas fa-angle-right"></i></span>
+                                            </div>
+                                            <div class="calendar">   
+                                            </div>
+                                        </div>
+                                        <span class="calendar_date" type="text" placeholder="Enter your date!"></span>
+                                        <span class="calendar_plus" type="button" ><i class="far fa-calendar-plus"></i></span>
+                                    </div>
+                                    <span class="create" type="button" >+</span>
+                                </div>
+                            </form>
+                        
+                    </div>
+                    <div class="tabs_content">
+                        <div class="my_task">
+                        </div>
+                        <div class="created_list">
+                        </div>
+                        <div class="expired_task_list">
+                        </div>
+                        <span class="remove_all">
+                        Remove all
+                        </span> 
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="grass"></div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>
